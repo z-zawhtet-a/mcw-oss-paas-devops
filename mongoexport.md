@@ -1,0 +1,5 @@
+mongoimport --host best-for-you-db-tronteam.documents.azure.com:10255 -u best-for-you-db-tronteam -p LrxirGPcDEVBJ6LwP7Aij7YqnslYJ62APRdES7KoMPBZ5K9ywgPYmVF9484FqIrSCrbvknzkQFyLPEFiZ1HxDw== --db best-for-you-organics --collection plans --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/plans.json
+
+mongoimport --host best-for-you-db-tronteam.documents.azure.com:10255 -u best-for-you-db-tronteam -p LrxirGPcDEVBJ6LwP7Aij7YqnslYJ62APRdES7KoMPBZ5K9ywgPYmVF9484FqIrSCrbvknzkQFyLPEFiZ1HxDw== --db best-for-you-organics --collection users --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/users.json
+
+mongoimport --host best-for-you-db-tronteam.documents.azure.com:10255 -u best-for-you-db-tronteam -p LrxirGPcDEVBJ6LwP7Aij7YqnslYJ62APRdES7KoMPBZ5K9ywgPYmVF9484FqIrSCrbvknzkQFyLPEFiZ1HxDw== --db best-for-you-organics --collection orders --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/orders.json
